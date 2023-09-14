@@ -1,2 +1,41 @@
 
-
+body{
+    background-image: linear-gradient(to bottom right, grey,black);
+    font-family: "Courier New", sans-serif;
+    overflow: hidden;
+}
+/* color, style and size of text */
+.text-color{
+    color: linen;
+}
+#heading, #heading-text{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    font-size: 3em;
+    font-weight: 100;
+}
+.text-size{
+    font-size: 1em;
+}
+li {
+    margin: 10% 0;
+}
+/* rearrangement + border */
+#list-nav ul{
+    margin: 20% 60% 30% 0;
+    border-style: inset;
+    width: 15%;
+    height: 30%;
+    background-color: antiquewhite;
+    color: black;
+}
+#text-about-me{
+    margin: -10% 0 40% 75%;
+    display: block;
+    width: 20%;
+    border: inset;
+    background-color: antiquewhite;
+    color: black;
+}
