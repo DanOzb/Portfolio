@@ -1,20 +1,27 @@
-
+html{
+    height: 100vh;
+    margin: 0;
+}
 body{
     background-image: linear-gradient(to bottom right, grey,black);
     font-family: "Courier New", sans-serif;
-    overflow: hidden;
+    height: 90vh;
+    width: 90vw;
+    border: 1px solid black;
+    margin: 20px auto 20px auto;
 }
 /* color, style and size of text */
 .text-color{
     color: linen;
 }
-#heading, #heading-text{
-    margin: 0;
+#heading-header{
+    margin: 2%;
     padding: 0;
 }
 #heading{
     font-size: 3em;
     font-weight: 100;
+    margin: 0;
 }
 .text-size{
     font-size: 1em;
@@ -23,19 +30,21 @@ li {
     margin: 10% 0;
 }
 /* rearrangement + border */
-#list-nav ul{
-    margin: 20% 60% 30% 0;
+.inset-border{
+    background-color: antiquewhite;
+    color: black;
     border-style: inset;
+    border-color: antiquewhite;
+}
+#list-nav ul{
+    margin: 20% 40% 30% 5%;
     width: 15%;
     height: 30%;
-    background-color: antiquewhite;
-    color: black;
+    box-shadow: 5px 5px rgb(79, 77, 77);
+    display: block;
 }
 #text-about-me{
-    margin: -10% 0 40% 75%;
+    margin: -10% 0 0 75%;
     display: block;
     width: 20%;
-    border: inset;
-    background-color: antiquewhite;
-    color: black;
 }
