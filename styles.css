@@ -53,3 +53,15 @@ li {
     width: 20%;
     min-width: 110px;
 }
+.projects{
+    box-sizing: border-box;
+    max-width: 1000px;
+    position: relative;
+    margin: 20px auto auto 25px;
+    width: 60%;
+}
+.slides-container{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
